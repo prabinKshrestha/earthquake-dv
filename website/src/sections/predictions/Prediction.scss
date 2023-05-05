@@ -1,0 +1,30 @@
+.Century-Killed,
+.Prediction-Prediction {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+        font-size: 35px;
+        font-weight: 600;
+        margin: 40px 150px;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-family: monospace;
+    }
+}
+
+.Prediction-visualization {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .description {
+        padding: 20px 20px;
+    }
+}
