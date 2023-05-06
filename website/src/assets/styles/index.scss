@@ -1,4 +1,34 @@
+:root {
+  --primary-color: #FF5733;
+  --primary-color-50: #fae9e8;
+  --secondary-color: #8B0000;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", serif;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+
+  &.p-50 {
+    background-color: var(--primary-color-50);
+  }
+}
+
+.bg-secondary {
+  background-color: var(--primary-color);
+}
+
+.secondary-font {
+  font-family: "Alegreya", serif;
 }
