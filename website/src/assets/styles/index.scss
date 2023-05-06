@@ -29,6 +29,22 @@ body {
   background-color: var(--primary-color);
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .secondary-font {
   font-family: "Alegreya", serif;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-family: "Poppins", serif;
+  border: 1px solid;
+
+  &.btn-round {
+    border-radius: 5px;
+  }
 }

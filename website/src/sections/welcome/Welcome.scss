@@ -13,6 +13,35 @@
         object-fit: cover;
     }
 
+    .Header {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        display: flex;
+
+        .Right {
+            text-align: right;
+            flex-grow: 1;
+            padding: 40px 30px;
+
+            .btn {
+                font-size: 13px;
+                padding: 7px 25px;
+                letter-spacing: 2px;
+
+                &.btn-white-outline {
+                    border-color: white;
+                    color: white;
+
+                    &:hover {
+                        background-color: white !important;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
     .Content {
         flex-grow: 1;
         top: 32%;
